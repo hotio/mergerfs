@@ -3,8 +3,8 @@
   "description": "Releases",
   "version": "2.38.0",
   "changelog": "https://github.com/trapexit/mergerfs/compare/2.37.1...2.38.0",
-  "upstream_image": "ghcr.io/hotio/base",
-  "upstream_tag": "alpine",
-  "upstream_digest_amd64": "sha256:aba1ad70d73a01a04940ceefcc0506c8867aa99be1e1598f7f57d79dc462ba1d",
-  "upstream_digest_arm64": "sha256:5f44dcee2c34486af761dca45b1a7b57ef953ee485050544c2255c6f21ed0278"
+  "upstream_image": "alpine",
+  "upstream_tag": "3.19",
+  "upstream_digest_amd64": "sha256:13b7e62e8df80264dbb747995705a986aa530415763a6c58f84a3ca8af9a5bcd",
+  "upstream_digest_arm64": "sha256:a70bcfbd89c9620d4085f6bc2a3e2eef32e8f3cdf5a90e35a1f95dcbd7f71548"
 }
