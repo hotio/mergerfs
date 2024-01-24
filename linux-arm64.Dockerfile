@@ -8,4 +8,6 @@ ENTRYPOINT ["mergerfs", "-f"]
 RUN apk add --no-cache fuse
 
 ARG VERSION
-RUN curl -fsSL "https://github.com/trapexit/mergerfs/releases/download/${VERSION}/mergerfs-static-linux_arm64.tar.gz" | tar xzf - -C "/"
+ADD "https://github.com/trapexit/mergerfs/releases/download/${VERSION}/mergerfs-static-linux_arm64.tar.gz" "/tmp"
+RUN tar xzf "/tmp/mergerfs-static-linux_arm64.tar.gz" -C "/" && \
+    rm -rf "/tmp/mergerfs-static-linux_arm64.tar.gz"
