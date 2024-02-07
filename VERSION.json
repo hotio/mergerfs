@@ -1,10 +1,9 @@
 {
-  "latest": true,
   "description": "Releases",
-  "version": "2.39.0",
-  "changelog": "https://github.com/trapexit/mergerfs/compare/2.38.0...2.39.0",
+  "latest": true,
+  "upstream_digest_amd64": "sha256:6457d53fb065d6f250e1504b9bc42d5b6c65941d57532c072d929dd0628977d0",
+  "upstream_digest_arm64": "sha256:a0264d60f80df12bc1e6dd98bae6c43debe6667c0ba482711f0d806493467a46",
   "upstream_image": "alpine",
   "upstream_tag": "3.19",
-  "upstream_digest_amd64": "sha256:6457d53fb065d6f250e1504b9bc42d5b6c65941d57532c072d929dd0628977d0",
-  "upstream_digest_arm64": "sha256:a0264d60f80df12bc1e6dd98bae6c43debe6667c0ba482711f0d806493467a46"
+  "version": "2.39.0"
 }
