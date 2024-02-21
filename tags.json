@@ -1,12 +1,14 @@
 {
   "release": {
     "description": "Releases",
-    "last_updated": "2024-01-30T01:36:05.584Z",
+    "hide": false,
+    "last_updated": "2024-02-21T08:29:47.000Z",
+    "last_updated_url": "https://github.com/hotio/mergerfs/actions/runs/7979978574",
     "latest": true,
     "tags": [
       "release",
-      "release-2.39.0",
-      "release-42f4065"
+      "release-2.40.0",
+      "release-2b23456"
     ]
   }
 }
