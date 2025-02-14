@@ -1,8 +1,8 @@
 {
   "description": "Releases",
   "latest": true,
-  "upstream_digest_amd64": "sha256:078600ccbb944bc762a06627798691a55d539185aeb9c2c33824421a5b47bf9f",
-  "upstream_digest_arm64": "sha256:4f3e6ddb33267897e6cf6c17db1fa774a098df408d78991228bdc4a7792ccb90",
+  "upstream_digest_amd64": "sha256:06793e3dc83d9a0733c70010283ed1735ff75fc0d40e3eac330aaef41a2f5049",
+  "upstream_digest_arm64": "sha256:b77521a60a51daad2b199da6efdd78956f79739d36379c2d13165f18ae1c4bee",
   "upstream_image": "alpine",
   "upstream_tag": "3.19",
   "version": "2.40.2"
