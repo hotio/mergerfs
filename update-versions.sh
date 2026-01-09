@@ -1,5 +1,7 @@
 #!/bin/bash
-version=$(curl -u "${GITHUB_ACTOR}:${GITHUB_TOKEN}" -fsSL "https://api.github.com/repos/trapexit/mergerfs/releases/latest" | jq -re .tag_name) || exit 1
+set -exuo pipefail
+
+version=$(curl -fsSL "https://api.github.com/repos/trapexit/mergerfs/releases/latest" | jq -re .tag_name)
 json=$(cat VERSION.json)
 jq --sort-keys \
     --arg version "${version//v/}" \
